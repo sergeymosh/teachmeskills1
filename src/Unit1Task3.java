@@ -1,6 +1,6 @@
 public class Unit1Task3 {
     public static void main(String[] args) {
-        int a = 0;
+        int a = 3;
         if(a>0){
             System.out.println(++a);
         } else if (a<0){
