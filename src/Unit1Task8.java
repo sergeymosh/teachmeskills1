@@ -13,9 +13,9 @@ public class Unit1Task8 {
             int number2 = sc2.nextInt();
             System.out.println("Второе число " + number2);
             if(number1>number2){
-                System.out.println(number1);
+                System.out.println(number1 + " больше чем " + number2);
             } else if(number1<number2){
-                System.out.println(number2);
+                System.out.println(number2 + " больше чем" + number1);
             }
 
 
