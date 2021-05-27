@@ -3,21 +3,24 @@ import java.util.Scanner;
 public class Unit1Task8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите первое число:");
-
-        int number1 = sc.nextInt();
-
         Scanner sc2 = new Scanner(System.in);
-        System.out.println("Введите второе число:");
+        System.out.println("Введите 2 числа:");
 
-        int number2 = sc2.nextInt();
-        if(number1>number2){
-            System.out.println(number1);
-        } else if(number1<number2){
-            System.out.println(number2);
+
+        if (sc.hasNextInt() && sc2.hasNextInt()) {
+            int number1 = sc.nextInt();
+            System.out.println("Первое число " + number1);
+            int number2 = sc2.nextInt();
+            System.out.println("Второе число " + number2);
+            if(number1>number2){
+                System.out.println(number1);
+            } else if(number1<number2){
+                System.out.println(number2);
+            }
+
+
         } else {
-            System.out.println("Перезапусти программу и постарайся ввести числа, умник =)");
+            System.out.println("Введите числа!");
         }
-
     }
 }
