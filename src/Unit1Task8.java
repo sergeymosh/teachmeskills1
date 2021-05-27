@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Unit1Task8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите 2 числа:");
+        System.out.println("Введите 2 числа :");
 
 
         if (sc.hasNextInt()) {
