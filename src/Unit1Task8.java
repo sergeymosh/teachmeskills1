@@ -10,11 +10,14 @@ public class Unit1Task8 {
         Scanner sc2 = new Scanner(System.in);
         System.out.println("Введите второе число:");
 
-        int number2 = sc.nextInt();
+        int number2 = sc2.nextInt();
         if(number1>number2){
             System.out.println(number1);
-        } else {
+        } else if(number1<number2){
             System.out.println(number2);
+        } else {
+            System.out.println("Перезапусти программу и постарайся ввести числа, умник =)");
         }
+
     }
 }
